@@ -5,8 +5,8 @@ class Home extends Component {
   render() {
     return (
       <>
-        <article class="row">
-          <section class="col s12 m6">
+        <a class="row">
+          <article class="col s12 m6">
             <div class="card blue-grey darken-1">
               <div class="card-content white-text">
                 <span class="card-title">Linkin Park</span>
@@ -19,8 +19,8 @@ class Home extends Component {
                 <Link to="/linkin-park">Check out Linkin Park</Link>
               </div>
             </div>
-          </section>
-          <section class="col s12 m6">
+          </article>
+          <article class="col s12 m6">
             <div class="card blue-grey darken-1">
               <div class="card-content white-text">
                 <span class="card-title">System of a Down</span>
@@ -30,8 +30,8 @@ class Home extends Component {
                 <Link to="/system-of-a-down">Check out System of a Down</Link>
               </div>
             </div>
-          </section>
-          <section class="col s12 m6">
+          </article>
+          <article class="col s12 m6">
             <div class="card blue-grey darken-1">
               <div class="card-content white-text">
                 <span class="card-title">Green Day</span>
@@ -44,8 +44,8 @@ class Home extends Component {
                 <Link to="/green-day">Check out Green Day</Link>
               </div>
             </div>
-          </section>
-        </article>
+          </article>
+        </section>
 
         {/* <h1>Home</h1>
         <h2>Linkin Park</h2>
