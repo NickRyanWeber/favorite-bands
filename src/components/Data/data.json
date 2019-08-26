@@ -1,0 +1,25 @@
+{
+  "bands": [
+    {
+      "name": "Linkin Park",
+      "imageURL": "https://i.imgur.com/quqArWH.png",
+      "latestAlbum": "They have an album that came out sometime in the past. It was good",
+      "joke": "My friends hate all my Linkin Park jokes, but in the end it doesn't even matter.",
+      "slug": "linkin-park"
+    },
+    {
+      "name": "System of a Down",
+      "imageURL": "https://lastfm-img2.akamaized.net/i/u/300x300/f6d029571f7848d48b42fd8800ba4805.gif",
+      "latestAlbum": "They have an album that came out sometime in the past. It was good",
+      "joke": "It's a non-stop disco / Bet you it's Nabisco",
+      "slug": "system-of-a-down"
+    },
+    {
+      "name": "Green Day",
+      "imageURL": "https://i.ebayimg.com/images/g/5fIAAOSwHnFV3VMg/s-l300.jpg",
+      "latestAlbum": "They have an album that came out sometime in the past. It was good",
+      "joke": "If Green Day were the Beatles, instead of Abbey Road what would they have instead? The Boulevard of Broken Dreams.",
+      "slug": "green-day"
+    }
+  ]
+}
