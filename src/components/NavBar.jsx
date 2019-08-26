@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Navbar, NavItem } from 'react-materialize'
+import { Navbar, NavItem, Dropdown } from 'react-materialize'
 
 export class NavBar extends Component {
   render() {
     return (
       <>
-        <Navbar brand={<Link to="/">Home</Link>} alignLinks="right">
+        <Navbar
+          ClassName="nav-wrapper"
+          brand={<Link to="/">Home</Link>}
+          alignLinks="right"
+        >
           <NavItem>
             <Link to="/linkin-park">Linkin Park</Link>
           </NavItem>

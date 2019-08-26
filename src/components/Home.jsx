@@ -69,7 +69,7 @@ class Home extends Component {
         <Link to="/green-day">
           <button>Check it out</button>
         </Link> */}
-      </section>
+      </>
     )
   }
 }
