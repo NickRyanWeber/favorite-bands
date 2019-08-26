@@ -7,23 +7,23 @@ class App extends Component {
   render() {
     return (
       <>
-        <nav>
-          <ul>
-            <a href="/">
-              <li>Home</li>
-            </a>
-            <a href="/linkin-park">
-              <li>Linkin Park</li>
-            </a>
-            <a href="/system-of-a-down">
-              <li>System of a Down</li>
-            </a>
-            <a href="/green-day">
-              <li>Green Day</li>
-            </a>
-          </ul>
-        </nav>
         <Router>
+          <nav>
+            <ul>
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+              <Link to="/linkin-park">
+                <li>Linkin Park</li>
+              </Link>
+              <Link to="/system-of-a-down">
+                <li>System of a Down</li>
+              </Link>
+              <Link to="/green-day">
+                <li>Green Day</li>
+              </Link>
+            </ul>
+          </nav>
           <Switch>
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/:band" component={Band}></Route>
