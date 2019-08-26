@@ -4,6 +4,7 @@ export class NavBar extends Component {
   render() {
     return (
       <nav>
+        <h1>test</h1>
         <ul>
           <Link to="/">
             <li>Home</li>
